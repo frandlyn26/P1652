@@ -1,6 +1,6 @@
 ![image](https://github.com/frandlyn26/P1652/blob/47c19c121b48ac24d4ddda312245c2a9b82eb6fb/pts1652.jpg)
 
-#### PIne Tree Shilling (P1652) is a tribute to moneymaker in the past and useful for educators in teaching students economics, history, finance, programming, and other technical skills.
+#### PIne Tree Shilling (P1652) is a tribute to moneymakers in the past and useful for educators in teaching students economics, history, finance, programming, and other technical skills.
 
 
 
