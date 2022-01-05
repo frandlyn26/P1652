@@ -43,7 +43,7 @@ namespace CryptoNote
         const size_t BLOCKCHAIN_TIMESTAMP_CHECK_WINDOW_V3 = 11;
 
         // MONEY_SUPPLY - total number coins to be generated
-        const uint64_t MONEY_SUPPLY = UINT64_C(16520000000000);
+        const uint64_t MONEY_SUPPLY = UINT64_C(1652000000000000);
 
         const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX = 0;
 
@@ -85,7 +85,7 @@ namespace CryptoNote
 
         const size_t CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE = 600;
 
-        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 4;
+        const size_t CRYPTONOTE_DISPLAY_DECIMAL_POINT = 6;
 
         /* TODO: Remove? */
         const uint64_t MINIMUM_FEE = UINT64_C(10000);
