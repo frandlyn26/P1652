@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/34389545/35821974-62e0e25c-0a70-11e8-87dd-2cfffeb6ed47.png)
+![image](https://github.com/frandlyn26/P1652/blob/47c19c121b48ac24d4ddda312245c2a9b82eb6fb/pts1652.jpg)
 
 #### TurtleCoin is a fun, fast, and easy way to send money to friends and businesses
 
