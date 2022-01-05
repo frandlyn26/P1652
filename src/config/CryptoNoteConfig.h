@@ -374,7 +374,7 @@ namespace CryptoNote
 
     const char LATEST_VERSION_URL[] = "http://latest.p1652.xyz";
 
-    const std::string LICENSE_URL = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
+    const std::string LICENSE_URL = "https://github.com/frandlyn26/P1652/blob/f610dd70ff67e3d0e77c829d9f905d9e5d3f5ec1/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
         {0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf3, 0x91, 0xa3, 0xb6, 0xc1, 0x42, 0xe9}};
