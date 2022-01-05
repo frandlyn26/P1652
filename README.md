@@ -6,7 +6,7 @@
 
 ### Contributing to P1652
 
-We are a group of blockchain Enthusiast and would love to have your contributions.:
+We are a group of blockchain Enthusiast and would love to have your contributions.
 
 -   If you'd like to report a bug, [fill out a bug report](https://github.com/turtlecoin/turtlecoin/issues/new?template=bug_report.md)
 -   If you'd like to submit code for a bug you fixed, [submit a pull-request](https://github.com/turtlecoin/turtlecoin/compare)
