@@ -1,4 +1,4 @@
-### Compiling TurtleCoin
+### Compiling Pine Tree Shilling
 
 ##### Table of Contents
 
