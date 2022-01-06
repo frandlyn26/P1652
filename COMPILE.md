@@ -43,7 +43,7 @@ However, if you wish to create _portable_ binaries that can be shared between sy
 -   `export CC=gcc-8`
 -   `export CXX=g++-8`
 -   `git clone https://github.com/frandlyn26/P1652.git`
--   `cd P1652
+-   `cd P1652`
 -   `mkdir build`
 -   `cd build`
 -   `cmake ..`
@@ -52,7 +52,7 @@ However, if you wish to create _portable_ binaries that can be shared between sy
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./P1652D
+-   `./P1652D`
 
 ##### Ubuntu with CLANG
 
@@ -85,7 +85,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./P1652d'
+-   `./P1652d`
 
 ##### CentOS with GCC
 
@@ -102,7 +102,7 @@ _CentOS compile instructions provided by @brandonlehmann_
 -   `cd ..`
 -   `git clone https://github.com/frandlyn26/P1652.git`
 -   `mkdir -p P1652/build`
--   `cd turtlecoin/build`
+-   `cd P1652/build`
 -   `cmake3 ..`
 -   `make`
 
