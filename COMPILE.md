@@ -1,4 +1,4 @@
-### Compiling Pine Tree Shilling
+### Compiling Pine Tree Shilling 1652
 
 ##### Table of Contents
 
@@ -42,8 +42,8 @@ However, if you wish to create _portable_ binaries that can be shared between sy
 -   `sudo apt install -y libboost-all-dev libssl-dev gcc-8 g++-8 cmake`
 -   `export CC=gcc-8`
 -   `export CXX=g++-8`
--   `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
--   `cd turtlecoin`
+-   `git clone https://github.com/frandlyn26/P1652.git`
+-   `cd P1652
 -   `mkdir build`
 -   `cd build`
 -   `cmake ..`
@@ -52,7 +52,7 @@ However, if you wish to create _portable_ binaries that can be shared between sy
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./TurtleCoind --version`
+-   `./P1652D
 
 ##### Ubuntu with CLANG
 
@@ -75,8 +75,8 @@ The binaries will be in the `src` folder when you are complete.
 *   `sudo pip install cmake`
 *   `export CC=clang-6.0`
 *   `export CXX=clang++-6.0`
-*   `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
-*   `cd turtlecoin`
+*   `git clone https://github.com/frandlyn26/P1652.git`
+*   `cd P1652`
 *   `mkdir build`
 *   `cd build`
 *   `cmake ..`
@@ -85,7 +85,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./TurtleCoind --version`
+-   `./P1652d'
 
 ##### CentOS with GCC
 
@@ -100,8 +100,8 @@ _CentOS compile instructions provided by @brandonlehmann_
 -   `./bootstrap.sh --prefix=/usr/local/`
 -   `./b2 -j$(nproc) -d0 install --with-system --with-filesystem --with-thread --with-date_time --with-chrono --with-regex --with-serialization --with-program_options`
 -   `cd ..`
--   `git clone https://github.com/turtlecoin/turtlecoin/`
--   `mkdir -p turtlecoin/build`
+-   `git clone https://github.com/frandlyn26/P1652.git`
+-   `mkdir -p P1652/build`
 -   `cd turtlecoin/build`
 -   `cmake3 ..`
 -   `make`
@@ -109,15 +109,15 @@ _CentOS compile instructions provided by @brandonlehmann_
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./TurtleCoind --version`
+-   `./P1652`
 
 ##### Generic Linux
 
 **Note:** If you want to use clang, ensure you set the environment variables `CC` and `CXX`.
 See the ubuntu instructions for an example.
 
--   `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
--   `cd turtlecoin`
+-   `git clone https://github.com/frandlyn26/P1652.git`
+-   `cd P1652`
 -   `mkdir build`
 -   `cd build`
 -   `cmake ..`
@@ -126,8 +126,8 @@ See the ubuntu instructions for an example.
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./TurtleCoind --version`
-
+-   `./P1652d`
+-   
 ## MacOS
 
 ##### MacOS Dependencies
@@ -147,8 +147,8 @@ The binaries will be in the `src` folder when you are complete.
 -   `ln -s /usr/local/opt/llvm@8 /usr/local/opt/llvm`
 -   `export CC=/usr/local/opt/llvm@8/bin/clang`
 -   `export CXX=/usr/local/opt/llvm@8/bin/clang++`
--   `git clone -b master --single-branch https://github.com/turtlecoin/turtlecoin`
--   `cd turtlecoin`
+-   `git clone -b master --single-branch https://github.com/frandlyn26/P1652.git`
+-   `cd P1652`
 -   `mkdir build`
 -   `cd build`
 -   `cmake ..`
@@ -157,7 +157,7 @@ The binaries will be in the `src` folder when you are complete.
 The binaries will be in the `src` folder when you are complete.
 
 -   `cd src`
--   `./TurtleCoind --version`
+-   `./P1652`
 
 ## Windows
 
@@ -179,16 +179,16 @@ You can build for 32-bit or 64-bit Windows. **If you're not sure, pick 64-bit.**
 For 64-bit:
 
 -   From the start menu, open **x64 Native Tools Command Prompt for VS 2019**.
--   `cd <your_turtlecoin_directory>`
+-   `cd <your_P1652_directory>`
 -   `mkdir build`
 -   `cd build`
 -   `cmake -G "Visual Studio 16 2019" -A x64 .. -DBOOST_ROOT=C:/local/boost_1_69_0`
--   `MSBuild TurtleCoin.sln /p:Configuration=Release /p:PlatformToolset=v141 /m` or `MSBuild src\cli.vcxproj /p:Configuration=Release /p:PlatformToolset=v141 /m`
+-   `MSBuild P1652.sln /p:Configuration=Release /p:PlatformToolset=v141 /m` or `MSBuild src\cli.vcxproj /p:Configuration=Release /p:PlatformToolset=v141 /m`
 
 For 32-bit:
 
 -   From the start menu, open **x86 Native Tools Command Prompt for VS 2019**.
--   `cd <your_turtlecoin_directory>`
+-   `cd <your_P1652_directory>`
 -   `mkdir build`
 -   `cd build`
 -   `cmake -G "Visual Studio 16 2019" -A Win32 .. -DBOOST_ROOT=C:/local/boost_1_69_0`
@@ -198,6 +198,6 @@ The binaries will be in the `src/Release` folder when you are complete.
 
 -   `cd src`
 -   `cd Release`
--   `TurtleCoind.exe --version`
+-   `P1652`
 
-[^ Return To Top](#compiling-turtlecoin)
+[^ Return To Top](#compiling-P1652)
