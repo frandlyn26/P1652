@@ -263,7 +263,7 @@ namespace CryptoNote
         };
 
         /* MAKE SURE TO UPDATE THIS VALUE WITH EVERY MAJOR RELEASE BEFORE A FORK */
-        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 0;
+        const uint64_t SOFTWARE_SUPPORTED_FORK_INDEX = 1;
 
         const uint64_t FORK_HEIGHTS_SIZE = sizeof(FORK_HEIGHTS) / sizeof(*FORK_HEIGHTS);
 
@@ -326,15 +326,15 @@ namespace CryptoNote
     const uint64_t BLOCKS_SYNCHRONIZING_DEFAULT_COUNT = 100; // by default, blocks count in blocks downloading
     const size_t COMMAND_RPC_GET_BLOCKS_FAST_MAX_COUNT = 1000;
 
-    const int P2P_DEFAULT_PORT = 4242;
+    const int P2P_DEFAULT_PORT = 4'242;
 
-    const int RPC_DEFAULT_PORT = 4243;
+    const int RPC_DEFAULT_PORT = 4'243;
 
-    const int SERVICE_DEFAULT_PORT = 8070;
+    const int SERVICE_DEFAULT_PORT = 8'070;
 
-    const size_t P2P_LOCAL_WHITE_PEERLIST_LIMIT = 1000;
+    const size_t P2P_LOCAL_WHITE_PEERLIST_LIMIT = 1'000;
 
-    const size_t P2P_LOCAL_GRAY_PEERLIST_LIMIT = 5000;
+    const size_t P2P_LOCAL_GRAY_PEERLIST_LIMIT = 5'000;
 
     // P2P Network Configuration Section - This defines our current P2P network version
     // and the minimum version for communication between nodes
