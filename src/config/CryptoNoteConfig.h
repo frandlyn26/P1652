@@ -107,7 +107,7 @@ namespace CryptoNote
         const uint64_t MINIMUM_FEE_PER_BYTE_V1_HEIGHT = 2200000;
 
         /* This section defines our minimum and maximum mixin counts required for transactions */
-        const uint64_t MINIMUM_MIXIN_V1 = 6;
+        const uint64_t MINIMUM_MIXIN_V1 = 0;
 
         const uint64_t MAXIMUM_MIXIN_V1 = 6;
 
