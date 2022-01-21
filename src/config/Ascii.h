@@ -6,7 +6,7 @@
 
 #include <string>
 
-const std::string windowsAsciiArt =
+const std::string asciiArt =
   "\n                                                                                        \n"
                                                                                                                               
      " PPPPPPPPPPPPPPPPP     1111111           66666666   555555555555555555  222222222222222       \n"    
@@ -28,27 +28,4 @@ const std::string windowsAsciiArt =
 
              
 
-const std::string nonWindowsAsciiArt =
-    "\n                                                                            \n"
-    " .----------------.  .----------------.  .----------------.  .----------------.  .----------------. \n"
-    "| .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |\n"
-    "| |   ______     | || |     __       | || |    ______    | || |   _______    | || |    _____     | |\n"
-    "| |  |_   __ \   | || |    /  |      | || |  .' ____ \   | || |  |  _____|   | || |   / ___ `.   | |\n"
-    "| |    | |__) |  | || |    `| |      | || |  | |____\_|  | || |  | |____     | || |  |_/___) |   | |\n"
-    "| |    |  ___/   | || |     | |      | || |  | '____`'.  | || |  '_.____''.  | || |   .'____.'   | |\n"
-    "| |   _| |_      | || |    _| |_     | || |  | (____) |  | || |  | \____) |  | || |  / /____     | |\n"
-    "| |  |_____|     | || |   |_____|    | || |  '.______.'  | || |   \______.'  | || |  |_______|   | |\n"
-    "| |              | || |              | || |              | || |              | || |              | |\n"
-    "| '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |\n"
-    "'----------------'  '----------------'  '----------------'  '----------------'  '----------------' \n" ;
 
-/* Windows has some characters it won't display in a terminal. If your ascii
-   art works fine on Windows and Linux terminals, just replace 'asciiArt' with
-   the art itself, and remove these two #ifdefs and above ascii arts */
-#ifdef _WIN32
-
-const std::string asciiArt = windowsAsciiArt;
-
-#else
-const std::string asciiArt = nonWindowsAsciiArt;
-#endif
