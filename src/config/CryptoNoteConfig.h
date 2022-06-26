@@ -20,7 +20,7 @@ namespace CryptoNote
 {
     namespace parameters
     {
-        const uint64_t DIFFICULTY_TARGET = 30; // seconds
+        const uint64_t DIFFICULTY_TARGET = 45; // seconds
 
         const uint32_t CRYPTONOTE_MAX_BLOCK_NUMBER = 500000000;
 
@@ -382,8 +382,8 @@ namespace CryptoNote
         {0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf3, 0x91, 0xa3, 0xb6, 0xc1, 0x42, 0xe9}};
 
     const char *const SEED_NODES[] = {
-        "66.42.99.64:4242", // LA
-        "144.202.27.89:4242", // Atlanta
+        "74.208.182.138:4242", // LA
+        "74.208.210.67:4242", // Atlanta
         
     
     };
